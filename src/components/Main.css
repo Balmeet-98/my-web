@@ -1,0 +1,30 @@
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  width: 400px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+#img {
+  padding: 80px 20px 0 20px;
+}
+#mailText {
+  color: white;
+  text-decoration: none;
+}
+#mailBtn {
+  color: white;
+  background-color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #img {
+    padding: 100px 20px 0 20px;
+  }
+  #nameText {
+    padding-top: 30px;
+  }
+  #mainBtn {
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,20 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.navbar-brand {
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-content: center;
+}
+/* #homeBtn {
+  color: #f2f5f7;
+  background-color: #f2f5f7;
+} */
